@@ -1,0 +1,5 @@
+description: Trace response identifier
+schema:
+  type: string
+  minLength: 1
+required: true

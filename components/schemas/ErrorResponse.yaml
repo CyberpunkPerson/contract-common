@@ -6,7 +6,7 @@ required:
   - errorMessage
 properties:
   errorId:
-    description: Error identificator
+    description: Error identifier
     type: string
     minLength: 16
     maxLength: 16

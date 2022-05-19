@@ -1,0 +1,8 @@
+description: Parent position identifier in the operation execution stack
+name: x-b3-parentspanid
+in: header
+required: false
+schema:
+  type: string
+  pattern: '^[a-f0-9]{16}$'
+example: a2fb4a1d1a96d312

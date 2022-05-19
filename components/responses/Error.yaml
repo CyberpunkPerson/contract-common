@@ -1,4 +1,9 @@
 description: Error
+headers:
+  x-b3-traceid:
+    $ref: '../headers/ResponseTraceId.yaml'
+  x-server-time:
+    $ref: '../headers/ResponseServerTime.yaml'
 content:
   application/json:
     schema:

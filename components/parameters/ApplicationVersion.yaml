@@ -1,0 +1,8 @@
+description: The version of the requesting application
+name: appVersion
+in: header
+required: false
+schema:
+  type: string
+  minLength: 1
+example: 5.0.0

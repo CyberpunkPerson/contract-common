@@ -1,0 +1,8 @@
+description: Global request trace identifier
+name: x-b3-traceid
+in: header
+required: false
+schema:
+  type: string
+  pattern: '^[a-f0-9]{16}$|^[a-f0-9]{32}$'
+example: 5b23a9529c0f48bc5b23a9529c0f48bc

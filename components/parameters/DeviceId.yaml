@@ -1,0 +1,7 @@
+description: Device identifier
+name: deviceId
+in: header
+required: false
+schema:
+  type: string
+  minLength: 1

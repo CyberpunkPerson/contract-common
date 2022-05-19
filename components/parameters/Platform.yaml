@@ -1,0 +1,8 @@
+description: The platform of the requesting application
+name: platform
+in: header
+required: false
+schema:
+  type: string
+  minLength: 1
+example: android
