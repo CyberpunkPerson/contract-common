@@ -1,0 +1,26 @@
+description: Error response
+type: object
+required:
+  - errorId
+  - errorCode
+  - errorMessage
+properties:
+  errorId:
+    description: Error identificator
+    type: string
+    minLength: 16
+    maxLength: 16
+    example: 02d55cabb05b44f0
+  errorCode:
+    description: Service error code
+    type: string
+    minLength: 1
+    example: InternalServerError
+  errorMessage:
+    description: service error message
+    type: string
+    minLength: 1
+    example: Internal server error
+  errorDetails:
+    description: Error details
+    type: object
